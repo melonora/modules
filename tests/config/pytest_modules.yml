@@ -3080,6 +3080,10 @@ spades:
   - modules/nf-core/spades/**
   - tests/modules/nf-core/spades/**
 
+spatialdata/mcmicro:
+  - modules/nf-core/spatialdata/mcmicro/**
+  - tests/modules/nf-core/spatialdata/mcmicro/**
+
 spatyper:
   - modules/nf-core/spatyper/**
   - tests/modules/nf-core/spatyper/**
