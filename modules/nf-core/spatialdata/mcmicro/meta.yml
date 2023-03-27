@@ -1,21 +1,16 @@
 name: "spatialdata_mcmicro"
-## TODO nf-core: Add a description of the module and list keywords
-description: write your description here
+description: Convert MCMICRO output to an OME-NGFF compliant zarr store with SpatialData
 keywords:
-  - sort
+  - OME-NGFF
+  - SpatialData
+  - Convert
 tools:
   - "spatialdata":
-      ## TODO nf-core: Add a description and other details for the software below
-      description: ""
-      homepage: ""
-      documentation: ""
-      tool_dev_url: ""
-      doi: ""
-      licence: ""
-
-## TODO nf-core: Add a description of all of the variables used as input
+      description: "Modular storage and efficient manipulation of spatial multimodal molecular data in Python"
+      homepage: "https://github.com/scverse/spatialdata"
+      documentation: "https://spatialdata.scverse.org/en/latest/"
+      licence: "BSD 3"
 input:
-  # Only when we have meta
   - meta:
       type: map
       description: |
